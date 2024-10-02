@@ -1,5 +1,9 @@
 from bst import BST
 
+"""
+    this is the driver code for using bst
+"""
+
 def main():
     bst = BST()
 

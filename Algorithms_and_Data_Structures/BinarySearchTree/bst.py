@@ -24,7 +24,8 @@ class BST:
                 root.rightPtr = BSTnode(value)
             else:
                 self.insert_helper(root.rightPtr, value)
-        
+    
+    #iterative method is used because rest of all methods are recursive
     def search(self ,value:int) -> bool:
         temp_node = self.root
         while temp_node is not None:
